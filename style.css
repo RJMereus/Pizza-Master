@@ -9,8 +9,30 @@
 
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
 
+header h1 {
+	font-family: 'Fredericka the Great', cursive;
+	font-size: 64px;
+	padding-top: 50px;
+	margin: 0 0 0 20px;
+  text-align: center;
+}
+header h1 a  {
+	text-decoration: none;
+	color: #777;
+}
+header h1 a:hover {
+	color: #8f99a4;
+}
+header h2 a  {
+	text-decoration: none;
+	color: #8b1b00;
+}
+header h2 a:hover {
+	color: #8f99a4;
+}
+
 body {
-  background-color: #5f5345;
+  background-color: #faf603;
 }
  
 .pageContainer {
@@ -39,7 +61,8 @@ img {
 h1 {
   font-family: 'Fredericka the Great', cursive;
   font-size: 64px;
-  color: #8b1b00;
+  color: #777;
+
 }
  
 p, li {
